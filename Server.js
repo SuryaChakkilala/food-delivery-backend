@@ -5,7 +5,7 @@ const cors = require("cors")
 const routes = require("./routes/adminroutes")
 const multer = require("multer")
 
- const dburl = 'mongodb://localhost:27017/sdpproject32';
+ const dburl = 'mongodb+srv://admin:admin@cluster0.hj1izav.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
  const db = async () => {
      try{
